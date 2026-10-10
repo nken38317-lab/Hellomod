@@ -1,0 +1,17 @@
+"schemaVersion": 1,
+"id": "hellomod",
+"version": "${version}",
+"name": "Hello Mod",
+"description": "Them lenh /test, go vao se hien chu Hello.",
+"authors": ["Ken"],
+"license": "MIT",
+"environment": "*",
+"entrypoints": {
+  "main": ["vn.hellomod.HelloMod"]
+},
+"depends": {
+  "fabricloader": ">=0.18.1",
+  "minecraft": "~1.21.11",
+  "java": ">=21",
+  "fabric-api": "*"
+}
